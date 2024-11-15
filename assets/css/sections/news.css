@@ -15,11 +15,13 @@
 }
 .news .content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     gap: 20px;
 }
 .news .item {
-    flex: 0 1 33.333%;
+    flex: 1 1 32%;
 
     display: flex;
     flex-direction: column;
