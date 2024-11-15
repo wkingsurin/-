@@ -6,6 +6,7 @@
 
 .header-block {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .header-block:not(:last-child) {

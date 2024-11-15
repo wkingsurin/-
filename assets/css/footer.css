@@ -1,0 +1,52 @@
+.footer {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.footer .container {
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    gap: 70px;
+
+    padding: 56px 0 24px;
+}
+.footer .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.footer .logo {
+}
+.footer .logo path {
+    fill: var(--light);
+}
+.footer .block {
+    flex: 0 1 50%;
+}
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+.footer .item {
+    display: flex;
+    align-items: flex-start;
+}
+.footer .link {
+}
+.footer .para {
+    font-size: 14px;
+    line-height: 120%;
+}
