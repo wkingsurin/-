@@ -5,5 +5,7 @@
 
 @import url('./header.css');
 @import url('./header-adaptive.css');
+
 @import url('./main.css');
+@import url('./main-adaptive.css');
 @import url('./footer.css');

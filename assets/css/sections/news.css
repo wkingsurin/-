@@ -25,7 +25,7 @@
     flex-direction: column;
 }
 .news .image {
-    max-height: 251px;
+    height: unset;
 }
 .news .description {
     display: flex;
