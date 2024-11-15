@@ -1,0 +1,34 @@
+.hero {
+}
+
+.hero .container {
+}
+
+.hero-block {
+}
+.hero-block > *:not(:last-child) {
+    margin-bottom: 32px;
+}
+.hero .title-block {
+    display: flex;
+
+    gap: 60px;
+}
+.hero .title-block > * {
+    flex: 0 1 50%;
+}
+.hero .title {
+    /* max-width: 500px; */
+}
+.hero .para {
+    max-width: 380px;
+    padding-top: 25px;
+}
+.hero .background {
+}
+.hero .image {
+    height: 440px;
+    overflow: hidden;
+}
+.hero .image img {
+}
