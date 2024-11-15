@@ -6,9 +6,6 @@
 
 .hero-block {
 }
-.hero-block > *:not(:last-child) {
-    margin-bottom: 32px;
-}
 .hero .title-block {
     display: flex;
 

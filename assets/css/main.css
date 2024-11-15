@@ -1,4 +1,5 @@
 @import url('../css/sections/hero.css');
+@import url('../css/sections/about.css');
 
 .main {
     padding: 80px 0;
@@ -7,9 +8,13 @@
 section:first-child {
     padding-top: 0;
 }
-section:not(:last-child) {
+section {
     padding: 40px 0;
 }
 section:last-child {
     padding-bottom: 0;
+}
+
+.section-block > *:not(:last-child) {
+    margin-bottom: 32px;
 }

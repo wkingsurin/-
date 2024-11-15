@@ -1,0 +1,33 @@
+.about {
+}
+
+.about .container {
+}
+
+.about-block {
+}
+.section-block {
+}
+
+.about .title-block {
+}
+.about .title {
+}
+.about .content {
+    display: flex;
+    
+    gap: 20px;
+}
+.about .block {
+    flex: 0 1 50%;
+}
+.about .description {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+.about .para {
+}
+.about .image {
+}
