@@ -1,0 +1,38 @@
+@media (max-width: 1280px) {
+    .production .content {
+    }
+    .production .item {
+        flex: 1 1 31%;
+
+        min-height: 385px;
+
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .production .item-name {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    .production .item {
+        min-height: unset;
+        gap: 40px;
+    }
+    .production .text-block {
+        min-height: unset;
+    }
+    .production .item-name {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 320px) {
+    
+}

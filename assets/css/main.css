@@ -1,8 +1,13 @@
 @import url('../css/sections/hero.css');
 @import url('../css/sections/about.css');
-@import url('../css/sections/productions.css');
+
+@import url('../css/sections/production.css');
+@import url('./production-adaptive.css');
+
 @import url('../css/sections/department.css');
+
 @import url('../css/sections/news.css');
+@import url('./news-adaptive.css');
 
 .main {
     padding: 80px 0;
