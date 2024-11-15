@@ -1,0 +1,64 @@
+.header {
+}
+
+.header .container {
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+}
+.header-block:not(:last-child) {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--accent);
+}
+.header-block:nth-child(2) {
+    padding: 16px 0;
+}
+.header .logo {
+}
+
+.header .contacts {
+    display: flex;
+    gap: 40px;
+}
+.contacts .link {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header .para {
+}
+.header .link {
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+
+    gap: 44px;
+}
+.nav .link {
+    line-height: 19px;
+}
+.header .icon {
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+.header .link_contact {
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+
+    color: var(--accent);
+}
+.header-block:nth-child(2) .link_contact {
+    text-transform: uppercase;
+}
