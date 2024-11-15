@@ -1,0 +1,52 @@
+@media (max-width: 1280px) {
+    .header-block:nth-child(2) {
+        align-items: flex-end;
+        gap: 40px;
+    }
+    .header .nav {
+        justify-content: space-between;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header .contacts {
+        gap: 20px;
+    }
+    .header-block:nth-child(2) {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 968px) {
+    .header-block:nth-child(2) {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) {
+    .header .menu {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .header .contacts {
+        display: none;
+    }
+
+    .header-block:not(:last-child) {
+        padding: 20px 0;
+    }
+
+    .header-block:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 140px;
+    }
+}
+
+@media (max-width: 320px) {}

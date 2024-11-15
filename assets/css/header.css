@@ -23,6 +23,9 @@
     display: flex;
     gap: 40px;
 }
+.header .contacts .block:nth-child(2) {
+    min-width: 162px;
+}
 .contacts .link {
     font-size: 20px;
     font-weight: 700;
@@ -38,9 +41,18 @@
 }
 .header .link {
 }
+.header .menu {
+    display: flex;
+    width: 30px;
+}
+.header .menu path {
+    fill: var(--accent);
+}
 .header .nav {
     display: flex;
     align-items: center;
+
+    width: 100%;
 
     gap: 44px;
 }
@@ -54,9 +66,15 @@
     height: 16px;
 }
 
+.header-block:nth-child(2) .link_contact {
+    justify-content: space-between;
+}
 .header .link_contact {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+
+    min-width: 162px;
 
     gap: 4px;
 }
