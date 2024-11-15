@@ -1,6 +1,7 @@
 @import url('../css/sections/hero.css');
 @import url('../css/sections/about.css');
 @import url('../css/sections/productions.css');
+@import url('../css/sections/department.css');
 
 .main {
     padding: 80px 0;

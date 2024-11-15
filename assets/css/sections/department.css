@@ -1,0 +1,23 @@
+.department {
+}
+
+.department .container {
+}
+
+.department-block {
+}
+.section-block {
+}
+
+.department .title-block {
+}
+.department .title {
+}
+.department .content {
+}
+.department .map {
+    display: flex;
+
+    width: 100%;
+    height: 715px;
+}
